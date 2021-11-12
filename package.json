@@ -28,5 +28,9 @@
     "test:lint": "eslint --ext .js,.ts --ignore-path .gitignore .",
     "test:format": "prettier --ignore-path .gitignore . --check",
     "format": "prettier --ignore-path .gitignore . --write"
+  },
+  "dependencies": {
+    "@vue/composition-api": "^1.4.0-beta.0",
+    "vue": "^2.6.14"
   }
 }
